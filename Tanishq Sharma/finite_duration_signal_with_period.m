@@ -1,8 +1,8 @@
 % Define the x data points
-x = -30:30;
+x = -15:15;
 
 % Initialize y with zeros
-y = zeros(1, 61);
+y = zeros(1, 31);
 
 period = 10;  % Define the period
 
@@ -22,4 +22,4 @@ ylabel('x[n]');
 title('Discrete Plot');
 
 % Get extra space in y-axis
-ylim([0, 50]);
+ylim([0, 25]);
