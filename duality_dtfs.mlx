@@ -1,0 +1,26 @@
+% Define a discrete-time signal x[n]
+N = 16; % Length of the signal
+n = 0:N-1; % Discrete time index
+x = sin(2*pi*n/8) + cos(4*pi*n/8); % Example signal
+
+% Compute the Discrete-Time Fourier Series (DTFS) coefficients of x[n]
+X_k = fft(x);
+
+% Plot the magnitude spectrum
+subplot(2, 1, 1);
+stem(-N/2:N/2-1, fftshift(abs(X_k)), 'filled', 'MarkerSize', 7); % Center the spectrum
+title('Magnitude Spectrum of x[n]');
+xlabel('Frequency (k)');
+ylabel('|X[k]|');
+grid on;
+
+% Compute the inverse DTFS to retrieve the original sequence
+x_reconstructed = ifft(X_k);
+
+% Plot the reconstructed signal
+subplot(2, 1, 2);
+stem(-N/2:N/2-1, fftshift(x_reconstructed), 'filled', 'MarkerSize', 7); % Center the signal
+title('Reconstructed Signal from DTFS coefficients');
+xlabel('Time (n)');
+ylabel('Amplitude');
+grid on;
