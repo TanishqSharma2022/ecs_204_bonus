@@ -28,12 +28,14 @@ This project delves into the intricacies of the Discrete Time Fourier Transform 
     - Shaswat
     - Vibha
 - Coding
-    - Kunwar
-    - Manas
-    - Tanishq
-    - Both Shubhams
+    - [Tanishq Sharma](https://github.com/TanishqSharma2022)
+    - Manas Nandan
+    - [Yash Choudhary](https://github.com/awesome-yash)
+    - [Shubham Choure](https://github.com/shubh-choure)
+    - Kunwar Arpit Singh
+    - Shubham Goel
     - Shreyas
-    - Sumit 
+    - Sumit Kumar
 
 
 ## How to Use:
