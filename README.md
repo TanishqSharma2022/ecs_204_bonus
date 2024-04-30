@@ -27,6 +27,7 @@ This project delves into the intricacies of the Discrete Time Fourier Transform 
     - Swasti
     - Shaswat
     - Vibha
+    - Y Sampat
 - Coding
     - [Tanishq Sharma](https://github.com/TanishqSharma2022)
     - Manas Nandan
